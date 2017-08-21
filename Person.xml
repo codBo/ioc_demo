@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="Person" class="DI_demo.Person">
+        <!-- 这里我们注入的是吃橘子的bean-->
+        <property name="name" ref="brian is the best!"/>
+    </bean>
+    <bean id="Person1" class="DI_demo.Person1">
+        <!-- 这里我们注入的是吃橘子的bean-->
+        <property name="name" ref="testPerson1"/>
+    </bean>
+</beans>
